@@ -1,42 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="schloschi's persoenliche website.">
-    <title>schloschi</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="schloschis seite">
+    <title>schloschis seite</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<div class="container">
     <header>
-        <h1>hallo zusammen!</h1>
-        <nav>
-            <ul>
-                <li><a href="articles/abenteuer.html">abenteuer</a></li>
-                <li><a href="/projekte">projekte</a></li>
-                <li><a href="/gedanken">gedanken</a></li>
-            </ul>
-        </nav>
+         <div class="header">
+          <a href="index.html" class="logo">schloschi</a>
+          <div class="header-right">
+            <a href="abenteuer.html">abenteuer</a>
+            <a href="projekte.html">projekte</a>
+            <a href="gedanken.html">gedanken</a>
+          </div>
+         </div>       
     </header>
 
-    <section id="abenteuer">
-        <h2>letzte abenteuer</h2>
-        <p>letzten sommer bin ich mit meinem bruder durch norwegen gewandert.
-das war cool.</p>
-    </section>
+    <div class="bg"><h1>Hier könnte ihr Bild stehen</h2></div>
 
-    <section id="projekte">
-        <h2>projekte</h2>
-        <p>ich sitze gerade an einem tms generator<p>
-    </section>
+    <div class="row">
+        <div class="column">
+          <h2><a href="/home.html">letztes abenteuer</a></h2> 
+          <p>Letzten Sommer umwanderte ich den Lysefjorden in Norwegen. Zusammen mit meinem
+jüngeren Bruder übernachteten wir in einem leichten Zelt und kochten im
+Trangia unsere Mahlzeiten. Fernab von Hotels und Supermärkten und isoliert von
+anderen Touristen konnten wir die abwechslungsreiche Landschaft Norwegens
+erleben. Wir liefen sowohl bei Sonnenschein als auch bei Regenwetter und
+legten mehr als x km auf Trampelpfaden, Asphalt und Klettersteigen zurück. Ein
+wirklich unvergessliches Abenteuer.</p>
+          <a href = "/home.html">[zum bericht]</a>
+        </div>
+        
 
-    <section id="gedanken">
-        <h2>gedanken</h2>
-        <p>ab und an schreibe ich auch ein paar meiner gedanken auf.</p>
-    </section>
+        <div class="column">
+          <h2><a href="/home.html">coolstes Projekt</a></h2>
+          <p>Ich fand den Schreibstil teilweise echt anstrengend. Gerade das ganze Kindheitsgedöns und "hach ich war so gut in Mathe und bin nur auf die besten
+Hochschule"-Gebumms hätte sie auch sein lassen können. Mir hätten 200 Seiten
+tatsächlich gereicht. Die Sprache hat mir auch nicht besonders gut
+gefallen,</p>
+        <a href = "/home.html">[zur dokumentation]</a>
+        </div>
 
+        <div class="column">
+          <h2><a href="/home.html">bester gedanke</a></h2> 
+          <p>"live, love, laber nicht so viel". In den letzten Wochen habe ich
+diesen Spruch an mehreren Wänden meiner Stadt entdeckt. Mit schwarzem
+Graffiti, oft nur schnell hingeschmiert. Schon beim ersten Sehen machte ich
+ein Foto, weil ich fühlte mich unvermittelt angesprochen. Es ist sehr
+menschlich von anderen Menschen gesehen zu werden. In meinem Fall endet das
+bloß in unbedachten Aussagen, die einem noch jahrelang hinterhergetragen
+werden: "Ich mag keine Markenklamotten. Sollten wir nicht alle schlichte
+Sachen tragen?".</p>
+        <a href = "/home.html">[zur formulierung]</a>
+        </div>
+    </div>
+
+    <div style="padding:56.25% 0 0 0;position:relative;">
+      <iframe src="https://player.vimeo.com/video/875507882?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="highlife">
+      </iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <div class="design">
+    <h2><a href="/gestaltung.html">gestaltung</a></h2>
+    <p>Nach jahrelangem Konsum sozialer Medien habe ich die Welt der
+Schönheitsfilter, perfekten Sonnenuntergänge und Katzenvideos satt. Ich versuche
+mich vermehrt auf Authentizität anstelle von angeblicher Perfektion zu
+fokussieren. Seitdem Ich etwa 14 bin, starte Ich alle paar Wochen neue
+Projekte, in welchen Ich meinen Interessen nachgehen kann. Über die Jahre habe ich mal ein bisschen hier, ein bisschen
+dort etwas herumgepfuscht. Bei diesem Ansatz ist aber nie etwas bleibendes
+entstanden. Deshalb hoffe ich durch das Veröffentlichen gründlicher und härter
+an meinen Projekten arbeiten zu können.</p>
+    <a href="www.tencprinciples.design">tenprinciples</a>
+    <a href="www.moolenaar.net">moolenar</a>
+    <a href="www.motherfucking.com">motherfuckingwebsite</a>
+    <a href="www.bettermotherfuckingwebsite.com">bettermotherfuckingwebsite</a>
+    <a href="www.thebestmotherfucking.website">thebestmotherfuckingwebsite</a>
+    <p>Von diesen fünf Seiten wurde die Gestaltung meiner Seite maßgeblich beeinflusst.</p>
+    <p>Ich hätte mir in 2.8 Sekunden von einer KI eine solide und moderne
+website ausspucken lassen können, aber ich habe mich entschieden meine Seite in
+langweiligem html und css zu schreiben. Es ist eine Übung darin durch Inhalt
+und nicht Form zu überzeugen. Zu diesem Zeitpunkt schaffe ich das sicher noch nicht,
+aber ich möchte mich gerne dorthin entwickeln.</p> 
+   </div>
     <footer>
-        <p>&copy; 2024 schloschi. All rights reserved.</p>
+         <div class="footer">
+          <a>&copy; In 2024 von
+          <a href="kontakt.html">schloschi</a>
+          zusammengeschustert.</a>
+         </div>       
     </footer>
+</div>
 </body>
-</html
+</html>
+>>>>>>> Stashed changes
