@@ -58,7 +58,7 @@ body, html {
 }
 
 .bg {
-  background-image: url("assets/full-page.png");
+  background-image: url("../assets/banner.png");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
