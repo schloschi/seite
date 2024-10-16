@@ -1,29 +1,3 @@
-/* seite kleiner machen */
-.container {
-  width: 90%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.clickable {
-  display: flex;
-  justify-content: space-between;
-}
-        
-.column img {
- width: 100%;
- height: auto;
- cursor: pointer;
-}
-
-/* responsivität bei bildschirmbreite<500px */
-@media screen and (max-width: 500px) {
-  .clickable {
-    width: 100%;
-  }
-}
-
-
 /* header stylen */
 .header {
   overflow: hidden;
@@ -59,19 +33,28 @@ a:hover {
   text-decoration: underline;
 }
 
-/* responsivitaet für bildschirme < 500px */
-@media screen and (max-width: 500px) {
-  .header a {
-    float: right;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+/* seiteninhalt kleiner als vollbildschirm machen */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* vollseitiges bild */
+/* abenteuer/projekt vorschau klickbar machen */
+.clickable abenteuer/projekt vorschau{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* abenteuer/projekt vorschau*/ 
+.column img {
+ width: 100%;
+ height: auto;
+ cursor: pointer;
+}
+
+
+/* vollseitiges bannerbild */
 body, html {
   height: 100%;
 }
@@ -106,7 +89,7 @@ body {
   clear: both;
 }
 
-/* reihen-link stylien */
+/* reihen-link stylen */
 h2 a {
   color: inherit;
   text-decoration: none;
@@ -117,11 +100,32 @@ h2 a:hover {
   text-decoration: underline;
 }
 
-/* responsivität bei bildschirmbreite<600px */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+/* kontaktseite*/
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 
