@@ -19,14 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: gedanken 
-email: ich poste nicht meine-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   schloschis wundervolle internet ausstellung, um abenteuer, projekte und gedanken mit
   der Welt zu teilen. 
-baseurl: "/gedanken" # the subpath of your site, e.g. /blog
-url: "~/seite/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: schloschi
-github_username:  jekyll
+baseurl: "seite/gedanken" # the subpath of your site, e.g. /blog
+url: "https://schloschi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  schloschi
 
 # Build settings
 theme: minima
