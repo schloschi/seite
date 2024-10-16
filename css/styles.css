@@ -5,6 +5,25 @@
   padding: 20px;
 }
 
+.clickable {
+  display: flex;
+  justify-content: space-between;
+}
+        
+.column img {
+ width: 100%;
+ height: auto;
+ cursor: pointer;
+}
+
+/* responsivität bei bildschirmbreite<500px */
+@media screen and (max-width: 500px) {
+  .clickable {
+    width: 100%;
+  }
+}
+
+
 /* header stylen */
 .header {
   overflow: hidden;
