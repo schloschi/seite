@@ -22,8 +22,8 @@ title: gedanken
 description: >- # this means to ignore newlines until "baseurl:"
   schloschis wundervolle internet ausstellung, um abenteuer, projekte und gedanken mit
   der Welt zu teilen. 
-baseurl: "seite/gedanken" # the subpath of your site, e.g. /blog
-url: "https://schloschi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/gedanken" # the subpath of your site, e.g. /blog
+url: "https://schloschi.github.io/seite" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  schloschi
 
 # Build settings
